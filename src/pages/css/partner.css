@@ -1,0 +1,158 @@
+/* Basic Reset and Font Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: 'Work Sans', sans-serif;
+    color: #333;
+  }
+  .header {
+    background-color: #0044a6;
+    padding: 20px 0;
+  }
+  .header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+  }
+  .logo {
+    height: 40px;
+  }
+  .nav-list {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+  }
+  .nav-list li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+  }
+  .login-button {
+    background-color: #ff9900;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Main Content Styling */
+  .main-content {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  /* Intro Section */
+  .intro-section {
+    background: linear-gradient(135deg, #0044a6 40%, #007acc);
+    color: white;
+    padding: 3rem;
+    border-radius: 8px;
+  }
+  .intro-section h1 {
+    font-size: 2.5rem;
+  }
+  .intro-section p {
+    font-size: 1.2rem;
+  }
+  .join-button {
+    padding: 0.8rem 1.5rem;
+    background-color: #ff9900;
+    border: none;
+    border-radius: 25px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  .join-button:hover {
+    background-color: #ff7f00;
+  }
+  
+  /* Steps Section */
+  .steps-section {
+    padding: 2rem;
+  }
+  .steps-cards {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  .step-card {
+    background: #007acc;
+    color: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    font-weight: 500;
+    transition: transform 0.3s;
+  }
+  .step-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* Benefits Section */
+  .benefits-section {
+    padding: 2rem;
+    text-align: center;
+  }
+  .benefits-cards {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  .benefit-card {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    font-weight: 500;
+    color: #0044a6;
+    transition: transform 0.3s;
+  }
+  .benefit-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* Testimonials Section */
+  .testimonials-section {
+    background: #f0f8ff;
+    padding: 3rem;
+    text-align: center;
+  }
+  .testimonials-section h2 {
+    font-size: 2rem;
+  }
+  .testimonial {
+    margin-top: 1.5rem;
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  .testimonial h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.3rem;
+  }
+  .testimonial h4 {
+    font-size: 1rem;
+    color: #555;
+  }
+  .testimonial blockquote {
+    font-style: italic;
+    font-size: 1rem;
+    color: #333;
+    margin-top: 1rem;
+  }
+  
+  /* Keyframe Animation for Testimonials */
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  

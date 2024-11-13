@@ -1,0 +1,94 @@
+/* Services.css */
+.services {
+    padding: 50px 20px;
+    background-color: #f8f8f8;
+    text-align: center;
+  }
+  
+  .services h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+  
+  .service-item {
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .service-item h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .service-item p {
+    font-size: 16px;
+  }
+  /* home.css */
+
+/* Section Styles */
+.features, .faq, .partners, .blog {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  
+  .feature-item, .faq-item, .blog-post {
+    margin-bottom: 2rem;
+  }
+  
+  .feature-item h3, .faq-item h3, .blog-post h3 {
+    font-size: 1.25rem;
+    font-weight: 600;
+  }
+  
+  .faq-item p, .blog-post p {
+    color: #4a5568;
+  }
+  
+  .partner-logo {
+    max-width: 150px;
+    margin: 0 1rem;
+    display: inline-block;
+  }
+  
+  .partners-logos {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .text-blue-600 {
+    color: #3182ce;
+  }
+  
+  .text-gray-800 {
+    color: #2d3748;
+  }
+  
+  .text-3xl {
+    font-size: 1.875rem;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .mb-8 {
+    margin-bottom: 2rem;
+  }
+  
+  .font-semibold {
+    font-weight: 600;
+  }
+  
+  .text-lg {
+    font-size: 1rem;
+  }
+  
+  
