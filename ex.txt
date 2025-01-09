@@ -1,0 +1,19 @@
+<Globe /> global reach
+
+<CircleDollarSign />  payment
+
+<Cable />  integration
+
+<TabletSmartphone />   mobile
+
+<Banknote />   pricing
+
+<Users />  developer
+
+<ChartNoAxesCombined />  analytics
+
+<ShieldCheck />  security
+
+<Database /> scalable
+
+

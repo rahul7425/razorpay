@@ -21,17 +21,17 @@ const HeroSection = () => {
       </div>
 
       <div className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
-        <div className="flex flex-col items-center">
+        <div className="flex flex-col items-center" data-aos="fade-up" data-aos-duration="1000">
           <Shield className="text-blue-600 mb-4" size={32} />
           <h3 className="text-lg font-semibold mb-2">Secure Payments</h3>
           <p className="text-gray-600">Bank-grade security for all transactions</p>
         </div>
-        <div className="flex flex-col items-center">
+        <div className="flex flex-col items-center" data-aos="fade-up" data-aos-duration="2000">
           <Globe className="text-blue-600 mb-4" size={32} />
           <h3 className="text-lg font-semibold mb-2">Global Coverage</h3>
           <p className="text-gray-600">Accept payments from 100+ countries</p>
         </div>
-        <div className="flex flex-col items-center">
+        <div className="flex flex-col items-center" data-aos="fade-up" data-aos-duration="3000">
           <Zap className="text-blue-600 mb-4" size={32} />
           <h3 className="text-lg font-semibold mb-2">Instant Setup</h3>
           <p className="text-gray-600">Go live in minutes, not days</p>

@@ -1,15 +1,15 @@
 import React from 'react';
-import { LucideIcon } from 'lucide-react';
 
 interface FeatureCardProps {
   icon: React.ReactNode;
   title: string;
   description: string;
+  index: number
 }
 
-const FeatureCard: React.FC<FeatureCardProps> = ({ icon, title, description }) => {
+const FeatureCard: React.FC<FeatureCardProps> = ({ icon, title, description , index}) => {
   return (
-    <div className="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow">
+    <div className="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow" data-aos="zoom-in-left" data-aos-delay={index*100}>
       <div className="flex items-start gap-4">
         {icon}
         <div>

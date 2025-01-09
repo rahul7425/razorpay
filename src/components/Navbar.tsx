@@ -1,11 +1,9 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
-import { CreditCard } from 'lucide-react';
 import img1 from '../asstes/SEVENUNIQUE NEW.png'
 
 const Navbar = () => {
   return (
-    <nav className="bg-white shadow-sm">
+    <nav className="sticky top-0 bg-white shadow-lg py-2 z-30">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           <Link to="/" className="flex items-center gap-2">
@@ -18,9 +16,9 @@ const Navbar = () => {
             <Link to="/paymentgateway" className="text-gray-600 hover:text-gray-900">Gateway</Link>
             <Link to="/pricing" className="text-gray-600 hover:text-gray-900">Pricing</Link>
             <Link to="/docs" className="text-gray-600 hover:text-gray-900">Developers</Link>
-            <Link to="/resources" className="text-gray-600 hover:text-gray-900">Resources</Link>
+            <Link to="/services" className="text-gray-600 hover:text-gray-900">Services</Link>
             <Link to="/solutions" className="text-gray-600 hover:text-gray-900">Solutions</Link>
-            <Link to="/partner" className="text-gray-600 hover:text-gray-900">Partner</Link>
+            <Link to="/contact" className="text-gray-600 hover:text-gray-900">Contact</Link>
           </div>
 
           <div className="flex items-center gap-4 ml-4 mr-4">

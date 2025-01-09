@@ -28,7 +28,7 @@ const PaymentForm = () => {
           <label className="block text-sm font-medium text-gray-700 mb-1">
             Card Number
           </label>
-          <div className="relative">
+          <div >
             <input
               type="text"
               name="cardNumber"
@@ -47,7 +47,7 @@ const PaymentForm = () => {
             <label className="block text-sm font-medium text-gray-700 mb-1">
               Expiry Date
             </label>
-            <div className="relative">
+            <div className="">
               <input
                 type="text"
                 name="expiryDate"
@@ -65,7 +65,7 @@ const PaymentForm = () => {
             <label className="block text-sm font-medium text-gray-700 mb-1">
               CVV
             </label>
-            <div className="relative">
+            <div className="">
               <input
                 type="password"
                 name="cvv"
@@ -98,7 +98,7 @@ const PaymentForm = () => {
           <label className="block text-sm font-medium text-gray-700 mb-1">
             Amount
           </label>
-          <div className="relative">
+          <div className="">
             <span className="absolute left-3 top-2 text-gray-500">$</span>
             <input
               type="text"
