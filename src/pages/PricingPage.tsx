@@ -4,9 +4,9 @@ import { Link } from "react-router-dom";
 import { Check, HelpCircle, ArrowRight } from "lucide-react";
 
 export default function PricingPage() {
-  useEffect(()=>{
-    window.scrollTo(0,0)
-  },[])
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className="">
       {/* Hero Section */}
@@ -19,9 +19,16 @@ export default function PricingPage() {
           backgroundPosition: "center",
         }}
       >
+        {/* Blur Overlay */}
+        <div
+          className="absolute inset-0 bg-black/50 rounded-br-[4.8rem]"
+          style={{
+            zIndex: 0,
+          }}
+        ></div>
         {/* Gradient Overlay */}
         <div
-          className="absolute inset-0 bg-gradient-to-b from-black via-transparent to-black opacity-100 rounded-br-[4.8rem]"
+          className="absolute inset-0 bg-gradient-to-b from-black via-transparent to-black opacity-90 rounded-br-[4.8rem]"
           style={{ zIndex: 0 }}
         ></div>
 

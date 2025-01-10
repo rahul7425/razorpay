@@ -135,6 +135,13 @@ const ResourcesPage = () => {
           backgroundPosition: "center",
         }}
       >
+         {/* Blur Overlay */}
+         <div
+          className="absolute inset-0 bg-black/50 rounded-br-[4.8rem]"
+          style={{
+            zIndex: 0,
+          }}
+        ></div>
         {/* Gradient Overlay */}
         <div
           className="absolute inset-0 bg-gradient-to-b from-black via-transparent to-black opacity-90 rounded-br-[4.8rem]"

@@ -87,7 +87,7 @@ useEffect(()=>{
       >
         {/* Blur Overlay */}
         <div
-          className="absolute inset-0 bg-black/30 rounded-br-[4.8rem] backdrop-blur-sm"
+          className="absolute inset-0 bg-black/50 rounded-br-[4.8rem]"
           style={{
             zIndex: 0,
           }}

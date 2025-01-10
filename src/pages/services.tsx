@@ -20,13 +20,13 @@ export default function Services() {
         backgroundPosition: "center",
       }}
     >
-      {/* Blur Overlay */}
-      <div
-        className="absolute inset-0  rounded-br-[4.8rem] backdrop-blur-sm"
-        style={{
-          zIndex: 0,
-        }}
-      ></div>
+       {/* Blur Overlay */}
+       <div
+          className="absolute inset-0 bg-black/50 rounded-br-[4.8rem]"
+          style={{
+            zIndex: 0,
+          }}
+        ></div>
       {/* Gradient Overlay */}
       <div
         className="absolute inset-0 bg-gradient-to-b from-black via-transparent to-black opacity-90 rounded-br-[4.8rem]"
@@ -80,9 +80,14 @@ export default function Services() {
           </div>
           </div>
           <Link
-                // to={`/solutions/${solution.title.toLowerCase()}`}
+                to="#payIn"
                 className="text-blue-600 flex items-center"
+                onClick={(e) => {
+                  e.preventDefault();
+                  document.getElementById("payIn")?.scrollIntoView({ behavior: "smooth" });
+                }}
               >
+                
                 Learn more <ArrowRight className="w-4 h-4 ml-2" />
               </Link>
         </div>
@@ -105,8 +110,12 @@ export default function Services() {
           </div>
           </div>
           <Link
-                // to={`/solutions/${solution.title.toLowerCase()}`}
+                to="#payOut"
                 className="text-blue-600 flex items-center"
+                onClick={(e) => {
+                  e.preventDefault();
+                  document.getElementById("payOut")?.scrollIntoView({ behavior: "smooth" });
+                }}
               >
                 Learn more <ArrowRight className="w-4 h-4 ml-2" />
               </Link>
@@ -114,7 +123,7 @@ export default function Services() {
       </div>
     </section>
 
-    <section className="py-16 container mx-auto px-6 lg:px-20">
+    <section id="payIn" className="py-16 container mx-auto px-6 lg:px-20">
       <div className="flex flex-col-reverse items-center lg:flex-row gap-16 lg:items-center lg:justify-center">
         <div className="lg:w-4/6">
           <h2 className="text-4xl font-bold text-gray-800 mb-6" data-aos="fade-up">
@@ -160,7 +169,7 @@ export default function Services() {
     </section>
 
     {/* Detailed Pay-Out Section */}
-    <section className="py-16 container mx-auto px-6 lg:px-20">
+    <section id="payOut" className="py-16 container mx-auto px-6 lg:px-20">
   <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center justify-center" >
     {/* Image Section */}
     <div className="flex justify-center items-center" data-aos="fade-left">

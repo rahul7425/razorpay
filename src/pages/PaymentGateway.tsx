@@ -37,13 +37,19 @@ export default function PaymentGateway() {
     backgroundPosition: "center",
   }}
 >
-  {/* Overlay */}
-  <div
-    className="absolute inset-0 bg-black opacity-50 rounded-br-[4.8rem]"
-    style={{
-      zIndex: 0, // Ensures it is behind the content
-    }}
-  ></div>
+   {/* Blur Overlay */}
+   <div
+          className="absolute inset-0 bg-black/50 rounded-br-[4.8rem]"
+          style={{
+            zIndex: 0,
+          }}
+        ></div>
+ {/* Gradient Overlay */}
+ <div
+          className="absolute inset-0 bg-gradient-to-b from-black via-transparent to-black opacity-90 rounded-br-[4.8rem]"
+          style={{ zIndex: 0 }}
+        ></div>
+
 
   {/* Content */}
   <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

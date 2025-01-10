@@ -240,33 +240,6 @@ const HomePage = () => {
             </div>
         </section>
 
-        {/* CTA Section */}
-        {/* <section className="py-20 bg-blue-600">
-          <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <h2 className="text-4xl font-bold text-white mb-8">
-              Ready to Get Started?
-            </h2>
-            <p className="text-xl text-white mb-8">
-              Join thousands of businesses that trust 7unique for their payment
-              needs
-            </p>
-            <div className="flex justify-center space-x-4">
-              <Link
-                to="/signup"
-                className="bg-white text-blue-600 px-8 py-3 rounded-md font-semibold hover:bg-gray-100"
-              >
-                Create Account
-              </Link>
-              <Link
-                to="/contact"
-                className="border border-white text-white px-8 py-3 rounded-md font-semibold hover:bg-blue-700"
-              >
-                Talk to Sales
-              </Link>
-            </div>
-          </div>
-        </section> */}
-
       </div>
       <div className="container mx-auto px-4 py-8">
         <div className="max-w-6xl mx-auto">

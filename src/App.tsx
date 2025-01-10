@@ -13,11 +13,13 @@ import PaymentGateway from './pages/PaymentGateway';
 import { useEffect } from 'react';
 import Aos from "aos";
 import "../node_modules/aos/dist/aos.css"
-import Test from './pages/test';
+import Test from './pages/product';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import Services from './pages/services';
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
+import 'flowbite'; // Import Flowbite JS
+import Products from './pages/product';
 
 function App() {
   useEffect(() => {
@@ -43,6 +45,7 @@ function App() {
             <Route path="/paymentgateway" element={<PaymentGateway />} />
             <Route path="/test" element={<Test />} />
             <Route path='/services' element={<Services />} />
+            <Route path='/product' element={<Products />} />
           </Routes>
         </main>
         <Footer />
